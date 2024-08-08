@@ -1,0 +1,47 @@
+.tasks-table {
+  padding: 20px;
+}
+
+.tasks-table h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tasks-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tasks-table th, .tasks-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tasks-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* .tasks-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+
+.tasks-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.tasks-table tr.selected {
+  background-color: #d3d3d3; /* the color of the selected row  */
+}
+
+.tasks-table tr.incomplete {
+  color: red;
+}
+
+/* .tasks-table tr.complete {
+}
+
+.tasks-table tr:hover { 
+} */

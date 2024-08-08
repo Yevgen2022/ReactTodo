@@ -1,0 +1,74 @@
+
+.button-panel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+ 
+  .button {
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+ 
+  .button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  
+  .button:hover {
+    background-color: #e7f0ff;
+  }
+  
+  .button:active {
+    background-color: lightslategray;
+  }
+  
+  
+  .button.disabled {
+    background-color: #d6d6d6;
+    color: #a1a1a1;
+    border: 1px solid #a1a1a1;
+    cursor: not-allowed;
+  }
+  
+  
+  .button-edit,
+  .button-delete {
+    border: 1px solid #28a745; 
+    color: #28a745; 
+  }
+  
+  .button-edit.active,
+  .button-delete.active {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .button-edit:hover,
+  .button-delete:hover {
+    background-color: #d4edda; 
+  }
+  
+  .button-edit:active,
+  .button-delete:active {
+    background-color: #c3e6cb;
+  }
+  
+  
+  .filter-panel-container {
+    margin: 10px 0;
+  }
+  
